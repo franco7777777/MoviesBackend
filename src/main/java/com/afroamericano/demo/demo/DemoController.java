@@ -43,8 +43,7 @@ public User addMovie(@RequestBody Set<Number> bodyMovies, Principal principal) {
         moviesId.addAll(usuario.getPeliculas());
     }
 
-    //moviesId.add((Number) usuario.getPeliculas());
-    //moviesId.add(1);
+
     usuario.setPeliculas(moviesId);
 
     System.out.println("soy el usuario con la movie 0");
